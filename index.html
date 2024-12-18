@@ -26,6 +26,7 @@
           </p>
         </div>
         <div class="form">
+        <form action="#" method="post" id="signup-form">
           <fieldset>
             <legend>Let's do this!</legend>
 
@@ -38,7 +39,29 @@
               <input type="text" id="last_name" name="last_name" />
             </div>
           </fieldset>
-        </div>
+          <fieldset>
+            <div>
+                <label for="email">EMAIL</label><br />
+                <input type="email" id="email" name="email" />
+              </div>
+              <div>
+                <label for="phone">PHONE NUMBER</label><br />
+                <input type="tel" id="phone" name="phone" />
+              </div>
+          </fieldset>
+          <fieldset>
+            <div>
+                <label for="pass">PASSWORD</label><br />
+                <input type="password" id="pass" name="password" required/>
+              </div>
+              <div>
+                <label for="conf-pass">CONFIRM PASSWORD</label required><br />
+                <input type="password" id="conf-pass" name="conf-pass" />
+              </div>
+          </fieldset>
+        </form>
+    </div>
+    <button type="submit" form="signup-form">Create Account</button>
       </div>
     </div>
   </body>
