@@ -60,6 +60,20 @@ input {
   appearance: none;
 }
 
+input:focus {
+    border: blue;
+    box-shadow: 4px 5px rgb(237, 233, 233);
+
+}
+
+input[type=password]:invalid {
+    border-color: red;
+}
+
+input[type=password]:valid {
+    border-color: var(--input-border);
+}
+
 .form {
   background-color: white;
   padding-top: 20px;
