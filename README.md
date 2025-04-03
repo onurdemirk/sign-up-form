@@ -2,6 +2,8 @@
 
 This project is a visually appealing and user-friendly sign-up form designed with modern web development practices. The left-side image and "Odin" branding enhance the aesthetic appeal, while the right-side form offers smooth interactivity.
 
+Live: https://onurdemirk.github.io/sign-up-form/
+
 ## Features
 
 - **Responsive Design:** Adjusts to various screen sizes with an optimized layout.
